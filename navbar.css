@@ -53,6 +53,28 @@ header {
 }
 
 
+.cta1 button {
+    background-color: #23489f;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.cta1 button:hover {
+    background-color: white;
+    color: #23489f;
+}
+
+.cta2 button,
+.cta3 button {
+    border-radius: 50%;
+    border-color: #23489f;
+    color: #23489f;
+}
+
+
+
 @media (max-width: 1300px) 
 {
 .nav-links li {
