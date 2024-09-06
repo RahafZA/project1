@@ -1,58 +1,65 @@
-
-
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with About Us</title>
     <link rel="stylesheet" href="styles.css">
-     <link rel="stylesheet" href="navbar.css">
-     <link rel="stylesheet" href="heroleft.css">
-     <link rel="stylesheet" href="heroright.css">
-    <title>Project</title>
-</head>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
 <body>
-
+    <div class="container">
     <nav class="navbar">
-        <div class="logo"><strong>logo</strong>ipsum</div>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="menu">
+        <div class="navbar-Logo"><i class="fa fa-fire" style="font-size:24px"></i>Logo</div>
+        <input type="checkbox" id="toggle-menu">
+        <label for="toggle-menu" class="navbar-toggle">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </label>
-       <ul class="nav-links">
-        <li><a href=""><b>Home</b></a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Our Services</a></li>
-        <li><a href="">How It Works</a></li>
-        <li><a href="">Contact Us</a></li>
-      </ul>
-      <div class="contact-buttons">
-            <button class="btn2">Dr</button>
-            <button class="btn2">Bh</button>
-            <button class="btn1">Lets Talk</button>
-      </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="#">Home</a></li>
+            <li class="navbar-item"><a href="#">About Us</a></li>
+            <li class="navbar-item"><a href="#">Our Services</a></li>
+            <li class="navbar-item"><a href="#">How it work</a></li>
+            <li class="navbar-item"><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button class="btn1">Dr</button>
+            <button  class="btn2">Bh</button>
+            <button  class="btn3">Lets Talk</button>
+        </div>
     </nav>
 
-    <section class="about">
-        <div class="about-content">
-            <div class="text-section">
-            <h1 >Get Appointment <br> Easy And Fast</h1>
-            <p>You can monitor and manage your business with the platform <br>we will provide .You can moinitor and manage your
-        </p>
-        <button class="btn3">Contact Me</button>
-        <button class="btn3">Contact Me</button>
+    <div class="about-container">
+        <div class="about-us">
+            <h1>Get Appointment <br>Easy And Fast</h1>
+            <p>
+                Welcome to our company! We are dedicated to providing the best services to our customers.
+                Our mission is to deliver quality and excellence in every project we undertake.
+             </p>
+            <button class="btn">Contact us</button>
+            <button  class="btn">contact me</button>
+        
+        </div>
+        <div class="about-image">
+            <img src="doctor.png" alt="About Us Image">
+        </div>
         <div class="per">
-          <span class="per1" >50K+<br><p>Happy Patient</p></span>
-          <span class="per1" >350+<br><p>Spacialist Doctor</p></span>
-          <span class="per1">98% <br><p>Our Success</p></span>
-         </div>
-         </div>
-        <div class="image-section">
-            <img src="doctor.png" alt="Description of image">
-        </section>
+            <div class="per">
+                <span class="per1" ><i class="fa fa-facebook"  ></i></span><br>
+                <span class="per1" ><i class="fa fa-instagram"  ></i></span><br>
+                <span class="per1"><i class="fa fa-youtube"  ></i></span><br>
+                <span class="per1"><i class='fa fa-telegram' ></i></span>
+</div>               </div>
+         
+</div>
+<div class="skill">
+<span class="ss" >50K+<br><p>Happy Patient</p></span>
+<span class="ss" >350+<br><p>Spacialist Doctor</p></span>
+<span class="ss">98% <br><p>Our Success</p></span>
+
+</div></div>
 </body>
 </html>
-
-      
